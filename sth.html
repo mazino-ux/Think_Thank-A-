@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think-tank Training Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.nav-brand h2 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.nav-collapse {
+    display: flex;
+    align-items: center;
+}
+
+.navb-nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f4f4f4;
+}
+
+.active {
+    border-bottom: 2px solid #fff;
+}
+
+#joinBtn {
+    background: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-left: 1rem;
+    border-radius: 0.3rem;
+    transition: background 0.3s ease;
+}
+
+#joinBtn:hover {
+    background: #0056b3;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.course-list,
+.faculty-list,
+.testimonial-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.course-item,
+.faculty-item,
+.testimonial-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    flex: 1 1 calc(50% - 2rem);
+    margin-bottom: 1rem;
+}
+
+.course-item h2,
+.faculty-item h2,
+.testimonial-item h3 {
+    margin-bottom: 0.5rem;
+}
+
+.faculty-item img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.3rem;
+}
+
+button.btn {
+    background: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button.btn:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <a href="index.html" class="nav-brand">
+                <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>THINK TANK</h2>
+            </a>
+            <button type="button" class="navbar-toggler" id="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav-collapse" id="nav-collapse">
+                <ul class="navb-nav">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="courses.html" class="nav-link">Courses</a></li>
+                    <li><a href="faculty.html" class="nav-link">Faculty</a></li>
+                    <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <a href="#" class="btn" id="joinBtn">Join Now<i class="fa fa-arrow-right"></i></a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        div id="content" class="site-content">
+
+<section class="focus " id="focus">
+	
+	<div class="container">
+
+		<!-- SECTION HEADER -->
+
+		<div class="section-header">
+
+			<!-- SECTION TITLE AND SUBTITLE -->
+
+			<h2 class="dark-text">Our Training Partners</h2>
+		</div>
+
+		<div class="row">
+
+				<span id="ctup-ads-widget-1" class="">
+                    <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+                        <a href="#" class="service-icon">
+                            <i class="pixeden" style="background:url(https://www.hiitplc.com/wp-content/uploads/2016/08/microsoft.png) no-repeat center;width:100%; height:100%;"></i>
+                        </a>
+                        <h3 class="red-border-bottom"></h3>
+                    </div>
+                </span>
+
+                <span id="ctup-ads-widget-2" class="">
+                    <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+                        <a href="#" class="service-icon">
+                            <i class="pixeden" style="background:url(https://www.hiitplc.com/wp-content/uploads/2016/08/pmi.png) no-repeat center;width:100%; height:100%;"></i>
+                        </a>
+                        <h3 class="red-border-bottom"></h3>
+                    </div>
+                </span>
+
+                <span id="ctup-ads-widget-3" class="">
+                    <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+                        <a href="#" class="service-icon"><i class="pixeden" style="background:url(https://www.hiitplc.com/wp-content/uploads/2016/08/Oracle.png) no-repeat center;width:100%; height:100%;"></i></a>
+                        <h3 class="red-border-bottom"></h3>
+                    </div>
+                </span>
+
+                <span id="ctup-ads-widget-4" class="">
+                    <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+                        <a href="#" class="service-icon">
+                            <i class="pixeden" style="background:url(https://www.hiitplc.com/wp-content/uploads/2017/09/Webp.net-resizeimage.png) no-repeat center;width:100%; height:100%;"></i>
+                        </a>
+                        <h3 class="red-border-bottom"></h3>
+                    </div>
+                </span>
+		</div>
+
+	</div> <!-- / END CONTAINER -->
+
+	
+</section>  <!-- / END FOCUS SECTION -->
+
+        <section class="intro">
+            <div class="container">
+                <h2>An Introduction</h2>
+                <h1>Who We Are</h1>
+                <p>The Think-tank Training Academy is a high-end executive business school established in Nigeria.</p>
+                <p>We specialize in IT, strategic management, and leadership. We offer professional and executive short courses, as well as diplomas in IT, management courses, health and social care management, tourism and hospitality management, and strategic management and leadership.</p>
+                <p>At Think tank, our main goal is to create a community of leaders in various industries who can improve the global economy.</p>
+                <p>We focus on partnerships to improve our students' performances. We do this by preparing them for their careers, offering online, classroom learning and blended learning, using competency-based education, and providing real-life case studies.</p>
+                <p>Furthermore, we give unlimited academic support to our students, to make learning easier. Students get to learn from industry experts who bring their professional experience into the classroom.</p>
+            </div>
+        </section>
+
+        <section class="campus">
+            <div class="container">
+                <h2>Your Learning Advantage</h2>
+                <h1>Our Campus</h1>
+                <p>The Think-tank Campus serves as the central hub for the Think-tank's blended learning approach. It's also your ticket to success in your program at Think-tank Training Academy.</p>
+                <p>Pristine uses digital technology to boost research success in its graduate research centre, where technology is crucial for research progress.</p>
+                <p>Think-tank Training Academy offers access to digital library databases, lecture materials, assignments, and publications for research. All resources are conveniently available and easily accessible on mobile devices.</p>
+            </div>
+        </section>
+
+        <section class="courses">
+            <div class="container">
+                <h1>Our Courses</h1>
+                <p>Explore the wide range of courses we offer at Think-tank Training Academy. We provide both short-term and long-term programs tailored to your career needs.</p>
+                <div class="course-list">
+                    <div class="course-item">
+                        <h2>IT and Software Development</h2>
+                        <p>Learn the latest in software development, data analysis, and IT management.</p>
+                    </div>
+                    <div class="course-item">
+                        <h2>Strategic Management</h2>
+                        <p>Develop strategic thinking skills and learn how to lead teams and organizations effectively.</p>
+                    </div>
+                    <div class="course-item">
+                        <h2>Health and Social Care Management</h2>
+                        <p>Gain the skills needed to manage health and social care services, focusing on improving patient outcomes.</p>
+                    </div>
+                    <div class="course-item">
+                        <h2>Tourism and Hospitality Management</h2>
+                        <p>Understand the dynamics of the tourism and hospitality industry and how to manage services effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faculty">
+            <div class="container">
+                <h1>Our Faculty</h1>
+                <p>Meet our team of experienced professionals who are dedicated to your success.</p>
+                <div class="faculty-list">
+                    <div class="faculty-item">
+                        <img src="faculty1.jpg" alt="Faculty Member">
+                        <h2>John Doe</h2>
+                        <p>Expert in IT and Software Development</p>
+                    </div>
+                    <div class="faculty-item">
+                        <img src="faculty2.jpg" alt="Faculty Member">
+                        <h2>Jane Smith</h2>
+                        <p>Strategic Management Specialist</p>
+                    </div>
+                    <div class="faculty-item">
+                        <img src="faculty3.jpg" alt="Faculty Member">
+                        <h2>Emily Johnson</h2>
+                        <p>Health and Social Care Expert</p>
+                    </div>
+                    <div class="faculty-item">
+                        <img src="faculty4.jpg" alt="Faculty Member">
+                        <h2>Michael Brown</h2>
+                        <p>Tourism and Hospitality Professional</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h1>Testimonials</h1>
+                <p>See what our students have to say about their experience at Think-tank Training Academy.</p>
+                <div class="testimonial-list">
+                    <div class="testimonial-item">
+                        <p>"The courses at Think-tank have been transformative for my career. The faculty is top-notch, and the learning environment is supportive."</p>
+                        <h3>- Student A</h3>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"I highly recommend Think-tank Training Academy. The practical approach to learning and real-life case studies helped me apply what I learned directly to my job."</p>
+                        <h3>- Student B</h3>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"The blend of online and classroom learning was perfect for my busy schedule. I gained valuable insights and skills that have boosted my professional growth."</p>
+                        <h3>- Student C</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Have questions or need more information? Get in touch with us.</p>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Think-tank Training Academy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
