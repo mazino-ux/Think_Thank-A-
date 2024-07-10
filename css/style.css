@@ -7,6 +7,18 @@
     --txtColor: #52565b;
     --lightColor: #fff;
     --darkTheme: #0497a6;
+    --bg-transparent: #00000067;
+    --shadow:6px 6px 12px #bababa, -6px -6px #dedede23;
+    --inner-shadow: inset 6px 6px 12px #bababa, inset -6px -6px #dedede23;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
+    --text-black-800: #e8e1e1;
+    --bg-transparent: #ffffff67;
+    --bg-icon: var(--skin-color);
+    --box-shadow: .2rem .2rem .5rem rgba(0,0,0,.2);
+}
+html{
+    scroll-behavior: smooth;
 }
 *{
     margin: 0; padding: 0;
@@ -231,7 +243,7 @@
     margin-bottom: 20px;
 }
 
-.button {
+.button-a {
     text-decoration: none;
     color: #FFFFFF;
     background-color: var(--themeColor);
@@ -240,8 +252,9 @@
     transition: background-color 0.3s ease;
 }
 
-.button:hover {
+.button-a:hover {
     background-color: #0497a6;
+    color: #fff;
 }
 /* Swiper Pagination */
 .swiper-pagination {
@@ -373,11 +386,11 @@
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 6px #06bbcc50;
-    transition: .5s ease, box-shadow 0.3s ease;
+    transition: transform .5s ease, box-shadow 0.1s ease;
 }
 .service-item:hover {
     background: var(--themeColor);
-    margin-top: -10px;
+    /* margin-top: -10px; */
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.331);
 }
@@ -956,6 +969,7 @@
 
 .btn-square:hover {
     background-color: var(--darkTheme);
+    color: #fff;
 }
 
 .text-center {
