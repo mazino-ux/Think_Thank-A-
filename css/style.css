@@ -273,7 +273,7 @@ html{
 .slider_content h1,
 .slider_content span,
 .slider_content a {
-    font-family: "Cinzel", serif;
+    font-family: "Heebo", serif;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
@@ -305,7 +305,11 @@ html{
         transform: translateX(0);
     }
 }
-
+.focus-box {
+    background-size: cover;
+    background-position: center;
+    transition: .3s ease-in-out;
+}
 .slider_content p,
 .slider_content h1,
 .slider_content span,

@@ -33,6 +33,24 @@ function startTypingEffect() {
 startTypingEffect();
 // ----------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", function () {
+
+  document.addEventListener('mousemove', function(e) {
+    const focusBoxes = document.querySelectorAll('.focus-box');
+    focusBoxes.forEach(box => {
+        const mouseX = e.clientX;
+        const mouseY = e.clientY;
+        const boxRect = box.getBoundingClientRect();
+        const boxX = boxRect.left + boxRect.width / 2;
+        const boxY = boxRect.top + boxRect.height / 2;
+        
+        const x = (mouseX - boxX) / boxRect.width * 50;
+        const y = (mouseY - boxY) / boxRect.height * 50;
+        
+        box.style.backgroundPosition = `${50 + x}% ${50 + y}%`;
+    });
+});
+
+  
     const lime = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
@@ -191,7 +209,7 @@ window.onload = calcScrollValue;
       document.getElementById("loader-container").style.display = "none";
       document.getElementById("contents").style.display = "block";
       // document.getElementById("nav").style.display = "block";
-  }, 2000); // Replace 2000 with the desired delay in milliseconds
+  }, 2000); 
 
 
 
